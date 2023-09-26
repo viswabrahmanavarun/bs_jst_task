@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Task 4 </title>
+        <script type="text/javascript"> 
+            function show_now() { 
+                var my_date = new Date();
+                document.getElementById('display2').innerHTML=my_date
+            }
+             function show_next() { 
+                var my_time = new Date();
+                document.getElementById('display').innerHTML=my_time
+                
+            }
+
+        </script>
+
+    </head>
+    <body>
+        <input type=button value="Show Date" onclick="show_now();">
+        <div id=display2></div><br><br>
+        <input type=button value="Show Time" onclick="show_next();">
+        <div id=display></div>
+    </body>
+
+</html>

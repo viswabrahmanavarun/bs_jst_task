@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <title>Bootstrap Login and Signup</title>
+</head>
+
+<body>
+  <header>
+     <a class="navbar-brand text-primary text-center" href="data:image/png;base64,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  ">Ethnus Layout</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex">
+          <button class="btn btn-primary me-2" type="button">Login</button>
+          <button class="btn btn-secondary" type="button">Sign Up</button>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    Write your content here
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

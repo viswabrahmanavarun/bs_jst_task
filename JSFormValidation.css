@@ -1,0 +1,27 @@
+
+.required {  /* Marker for required fields */
+    color: red;
+ }
+  
+ .errorMsg {  /* for error messages */
+    color: red;
+ }
+  
+ .errorBox {  /* for the error input text fields */
+    border: 2px solid red;
+ }
+  
+ table {
+    border: 0;
+    background-image: url(bg_img4.jpg);
+    background-size: contain,cover;
+    margin-left: auto;
+    margin-right: auto;
+    
+ }
+ 
+  
+ td {
+    margin: 0;
+    padding: 3px 10px;
+ }

@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Task 2 </title>
+</head>
+
+<body>
+  <input type="text" id="stringInput" placeholder="Enter a string">
+  <button onclick="sortString()">Sort</button>
+  <p id="result"></p>
+
+  <script>
+    function sortString() {
+  var stringInput = document.getElementById("stringInput").value;
+  var sortedString = sortLettersAlphabetically(stringInput);
+  document.getElementById("result").textContent = "Expected Output: " + sortedString;
+}
+
+function sortLettersAlphabetically(str) {
+  var sortedArray = str.split('').sort();
+  return sortedArray.join('');
+}
+
+  </script>
+</body>
+
+</html>
